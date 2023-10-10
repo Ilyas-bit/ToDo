@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDo</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<div class="main__container">
+				<div class="summary">
+					<div class="summary__block">
+						<div class="form-summary__address">
+							<div class="form-summary__line">
+								<div class="form-summary__title">HIGH</div>
+								<form class="add-things-todo">
+									<div class="form-summary__shell">
+										<input id="form1" placeholder="Добавить важных дел" autocomplete="off"
+											type="text" name="state" data-error="Ошибка" data-value=""
+											class="form-summary__input">
+										<button type="submit" id="enter1" class="form-summary__img"
+											type="submit"></button>
+									</div>
+								</form>
+							</div>
+							<div class="form-summary__line">
+								<div class="form-summary__title">LOW</div>
+								<form class="add-things-todo-2">
+									<div class="form-summary__shell">
+										<input id="form2" placeholder="Добавить" autocomplete="off" type="text"
+											name="state" data-error="Ошибка" data-value="" class="form-summary__input">
+										<button type="submit" id="enter2" class="form-summary__img"
+											type="submit"></button>
+									</div>
+								</form class="add-things-todo">
+							</div>
+						</div>
+					</div>
+				</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	<script type="module" src="main.mjs"></script>
+</body>
+
+</html>

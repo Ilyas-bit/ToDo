@@ -1,0 +1,34 @@
+{
+  "toDoList": [
+    {
+      "name": "погулять",
+      "status": "Done",
+      "priority": "low",
+      "id": "1"
+    },
+    {
+      "name": "сходить на рыбалку",
+      "status": "Done",
+      "priority": "high",
+      "id": "2"
+    },
+    {
+      "name": "почитать",
+      "status": "In progress",
+      "priority": "high",
+      "id": "3"
+    },
+    {
+      "name": "написать код",
+      "status": "In progress",
+      "priority": "high",
+      "id": "3"
+    },
+    {
+      "name": "посмотреть фильм",
+      "status": "In progress",
+      "priority": "low",
+      "id": "3"
+    }
+  ]
+}
